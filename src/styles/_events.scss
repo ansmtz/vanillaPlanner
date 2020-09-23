@@ -1,0 +1,19 @@
+.events {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 35vh);
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    gap: 3rem;
+}
+
+@media (min-width: 700px){
+    .events {
+        grid-template-columns: repeat(2, 44vw);
+        grid-template-rows: 80%;
+        gap: 2rem;
+    }
+}

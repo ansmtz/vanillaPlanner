@@ -1,0 +1,30 @@
+.btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all .4s ease-in;
+
+    &--more {
+        font-weight: bold;
+        color: #8a4325;
+        border: 1px solid #8a4325;
+        padding: .5em;
+        border-radius: .3em;
+    }
+
+    &--add {
+        font-weight: bold;
+        color: #fff;
+        background-color:#8a4325;
+        padding: .5em;
+        border-radius: .3em;
+        box-shadow: 0 1px 3px rgba(0,0,0, .12), 0 1px 2px rgba(0,0,0, .24);
+    }
+    &:hover{
+        transform: translateY(-10%);
+    }
+    &:focus, &:active {
+        transform: translateY(2%);
+    }
+}
+
